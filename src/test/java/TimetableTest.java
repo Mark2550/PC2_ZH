@@ -5,12 +5,10 @@ import static org.junit.Assert.assertTrue;
 
 public class TimetableTest {
 
-    // TODO: Uncomment testcase to test newCourse method.
-    /*
     @Test
     public void testNewCourse() {
         Timetable timetable = new Timetable();
-        assertTrue(timetable.getCourses().isEmpty());
+        //assertTrue(timetable.getCourses().isEmpty());
 
         String course1 = "Math";
         timetable.newCourse(course1);
@@ -24,10 +22,7 @@ public class TimetableTest {
         timetable.newCourse(course3);
         assertEquals(course1 + " -\r\n" + course2 + " -", timetable.getCourses());
     }
-    */
 
-    // TODO: Uncomment testcase to test removeCourse method.
-    /*
     @Test
     public void testRemoveCourse() {
         Timetable timetable = new Timetable();
@@ -51,10 +46,7 @@ public class TimetableTest {
         timetable.removeCourse(course2);
         assertTrue(timetable.getCourses().isEmpty());
     }
-    */
 
-    // TODO: Uncomment testcase to test setTimestamp method.
-    /*
     @Test
     public void testScheduler() {
         Scheduler scheduler = new Scheduler();
@@ -78,5 +70,4 @@ public class TimetableTest {
         scheduler.setTimestamp("not real", timestamp1);
         assertEquals(course1 + " " + timestamp1 + "\r\n" + course2 + " " + timestamp2, scheduler.getCourses());
     }
-    */
 }
